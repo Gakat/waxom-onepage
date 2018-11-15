@@ -520,3 +520,37 @@
   background: url("../img/list-arrow.png") no-repeat 0rem 0.3rem;
   padding-left: 3rem;
 }
+
+.counter {
+  padding: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.counter__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 15%;
+}
+
+.counter__number {
+  margin: 1.5rem 0 1rem;
+  font-size: 3rem;
+  color: #fff;
+  line-height: 0.75;
+}
+
+.counter__caption {
+  color: #c7b299;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.counter__line {
+  margin-top: 1.5rem;
+  width: 30px;
+  border-bottom: 2px solid #fff;
+}
