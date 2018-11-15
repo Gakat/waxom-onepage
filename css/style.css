@@ -1,16 +1,40 @@
 /* Clearfix */
- {
+{
   content: "";
   display: table;
   clear: both;
 }
 
+.page {
+  font-family: Arial;
+}
+
+.page__row--alt-color {
+  background-color: #FBFAF8;
+}
+
 .page__container {
   margin: 0 auto;
+  max-width: 1170px;
+}
+
+.text--small {
+  font-size: 0.875rem;
+}
+
+.text--large {
+  font-size: 1.25rem;
+}
+
+.text--x-large {
+  font-size: 1.375rem;
+}
+
+.text--xxx-large {
+  font-size: 1.875rem;
 }
 
 .header {
-  max-width: 1170px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -34,8 +58,6 @@
 
 .navigation__list {
   padding: 0;
-  font-family: Arial;
-  font-size: 0.875rem;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -114,7 +136,6 @@
   text-align: center;
   z-index: 2;
   color: #fff;
-  font-family: Arial;
   line-height: 1.2;
 }
 
@@ -137,7 +158,6 @@
   border-radius: 3px;
   background-color: #998675;
   color: #fff;
-  font-size: 0.875rem;
   padding: 1rem 2.25rem;
   margin-top: 1rem;
   border: none;
@@ -156,4 +176,74 @@
 
 .slider .owl-nav .owl-next {
   right: 8%;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services__item {
+  margin: 5rem 1%;
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.services__item:hover .services__title,
+ {
+  color: #c7b299;
+  
+}
+.services__item:hover path {
+  fill: #c7b299;
+}
+.services__item:hover .services__line {
+  border-bottom-color: #c7b299;
+}
+
+.services__icon {
+  height: 3rem;
+  width: 3rem;
+  margin-bottom: 1.5625rem;
+  fill: #555;
+}
+
+.services__title {
+  line-height: 1.2;
+  margin-bottom: 1.125rem;
+  color: #555555;
+}
+
+.services__description {
+  line-height: 1.7;
+  padding-bottom: 1rem;
+  margin-bottom: 0.4375rem;
+  color: #8c8c8c;
+}
+
+.services__line {
+  width: 4.375rem;
+  border-bottom: 3px solid #f1eee9;
+}
+
+.ideas {
+  padding-top: 4.875rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ideas__title {
+  line-height: 1.2;
+  margin-bottom: 1.4375rem;
+}
+
+.ideas__caption {
+  line-height: 1.75;
+  width: 66%;
+  padding-bottom: 2.5rem;
 }

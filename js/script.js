@@ -2,7 +2,7 @@ $(document).ready(function(){
   $(".slider").owlCarousel({
     items: 1,
     loop: true,
-    autoplay: false,
+    autoplay: true,
     nav: true
   });
   $("button.owl-prev span").replaceWith("<img src=\"img\\prev.png\\\" alt=\"\"></img>");
