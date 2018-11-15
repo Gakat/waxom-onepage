@@ -200,15 +200,18 @@
 
 .services__item:hover .services__title {
   color: #c7b299;
+  transition: .5s ease;
 
 }
 
 .services__item:hover path {
   fill: #c7b299;
+  transition: .5s ease;
 }
 
 .services__item:hover .services__line {
   border-bottom-color: #c7b299;
+  transition: .5s ease;
 }
 
 .services__icon {
@@ -317,7 +320,7 @@
 .portfolio__filter-item:hover {
   background-color: #998675;
   color: #fff;
-  transition: transition: .5s ease-in;
+  transition: .3s ease-in;
 }
 
 .portfolio__grid-box {
@@ -472,4 +475,48 @@
   left: 0;
   background-color: #111;
   opacity: 0.4;
+}
+
+.mobile {
+  margin-top: 5rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.mobile__img,
+.mobile__text {
+  float: left;
+}
+
+.mobile__img {
+  width: 41%;
+}
+
+.mobile__text {
+  width: 58%;
+  margin-left: 2rem;
+}
+
+.mobile__title {
+  color: #555;
+  line-height: 1.2;
+}
+
+.mobile__caption {
+  color: #8c8c8c;
+  line-height: 1.75;
+  margin: 2rem 0;
+}
+
+.mobile__list {
+  /* list-style-image: url("../img/list-arrow.png"); */
+  margin-left: 5rem;
+}
+
+.mobile__list-item {
+  line-height: 2;
+  color: #8C8C8C;
+  background: url("../img/list-arrow.png") no-repeat 0rem 0.3rem;
+  padding-left: 3rem;
 }
