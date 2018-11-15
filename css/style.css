@@ -82,6 +82,7 @@
 
 .navigation__item:hover {
   color: #c7b299;
+  cursor: pointer;
 }
 
 .header__icon {
@@ -274,8 +275,13 @@
 
 .theme-ad__caption {
   font-size: 1.125rem;
-  line-height: 1.2;
+  line-height: 1.5;
   color: #615855;
+}
+
+.theme-ad__button {
+  height: 100%;
+  margin: auto 0;
 }
 
 .projects {
@@ -419,4 +425,51 @@
 
 .portfolio__button {
   margin-top: 2rem;
+}
+
+.presentation {
+  background-image: url('../img/presentation-background.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 30%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.presentation__box {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+}
+
+.presentation__title {
+  line-height: 1.2;
+  margin: 5% 0;
+}
+
+.presentation__caption {
+  line-height: 1.75;
+  margin-bottom: 3%;
+  width: 66%;
+  margin: 0 auto;
+}
+
+.presentation__timer {
+  color: #c7b299;
+  line-height: 1.7;
+  margin-top: 3%;
+}
+
+.presentation__overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #111;
+  opacity: 0.4;
 }
