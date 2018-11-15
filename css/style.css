@@ -34,6 +34,14 @@
   font-size: 1.875rem;
 }
 
+.button {
+  border-radius: 3px;
+  background-color: #998675;
+  color: #fff;
+  padding: 1rem 2.25rem;
+  border: none;
+}
+
 .header {
   width: 100%;
   display: flex;
@@ -155,12 +163,9 @@
 }
 
 .slider__button {
-  border-radius: 3px;
-  background-color: #998675;
-  color: #fff;
-  padding: 1rem 2.25rem;
+  
   margin-top: 1rem;
-  border: none;
+  
 }
 
 .slider .owl-nav button {
@@ -246,4 +251,26 @@
   line-height: 1.75;
   width: 66%;
   padding-bottom: 2.5rem;
+}
+
+.theme-ad {
+  padding: 2.75rem 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.theme-ad__title {
+  font-size: 1.75rem;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.theme-ad__accent {
+  color: #c7b299;
+}
+
+.theme-ad__caption {
+  font-size: 1.125rem;
+  line-height: 1.2;
+  color: #615855;
 }
