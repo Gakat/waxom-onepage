@@ -1,0 +1,65 @@
+@media screen and (max-width: 1400px) {
+  .presentation {
+    padding-top: 35%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .header--overlay {
+    top: 1rem;
+  }
+  .header__logo {
+    padding-left: 1rem;
+  }
+  .header__icon-box {
+    padding-right: 1.5rem;
+  }
+
+  .slider .owl-dots {
+    bottom: 1.5rem;
+  }
+  .services{
+    padding: 2.5rem 0;
+  }
+  .ideas {
+    padding-top: 2.5rem;
+  }
+  .ideas__image {
+    width: 90%;
+  }
+  .projects {
+    padding: 3rem 0;
+  }
+  .presentation {
+    padding-top: 40%;
+  }
+  .blog {
+    padding: 2.5rem 0;
+  }
+  .mobile {
+    margin-top: 2.5rem;
+  }
+  .counter {
+    padding: 2.5rem 0;
+  }
+  .partners {
+    padding-top: 25%;
+  }
+  .partners__logo {
+    width: 15%;
+  }
+  .footer {
+    padding: 2.5rem 1rem;
+  }
+  .copyright__item {
+    padding: 1.5rem 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 90%;
+  }
+  .owl-nav img {
+    width: 80%;
+  }
+}

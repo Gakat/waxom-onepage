@@ -192,12 +192,13 @@
 }
 
 .services {
+  padding: 4rem 0;
   display: flex;
   justify-content: space-between;
 }
 
 .services__item {
-  margin: 5rem 1%;
+  margin: 0 1%;
   width: 23%;
   display: flex;
   flex-direction: column;
@@ -267,6 +268,10 @@
   color: #8c8c8c;
 }
 
+.ideas__image {
+  width: 100%;
+}
+
 .theme-ad {
   padding: 2.75rem 1rem;
   display: flex;
@@ -296,7 +301,7 @@
 
 .projects {
   text-align: center;
-  padding: 5rem 0;
+  padding: 2.5rem 0;
 }
 
 .projects__title {
@@ -308,7 +313,6 @@
   margin: 0 auto;
   line-height: 1.75;
   color: #8c8c8c;
-  padding-bottom: 2rem;
   max-width: 66%;
 }
 
@@ -333,6 +337,7 @@
 .portfolio__grid-box {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .portfolio__grid-item {
@@ -489,6 +494,7 @@
   position: relative;
   display: flex;
   align-items: center;
+  padding: 0 2rem;
 }
 
 .mobile__img,
@@ -532,7 +538,7 @@
   padding: 4rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .counter__box {
@@ -571,7 +577,7 @@
 }
 
 .blog__title {
-  padding: 1.5rem 0;
+  padding-bottom: 1.5rem;
   line-height: 1.2;
   color: #555555;
 }
